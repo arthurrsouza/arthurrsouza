@@ -6,7 +6,7 @@ export default function run () {
   const appContainer = document.createElement('div')
   appContainer.id = 'todo-container'
 
-  mainContainer?.appendChild(modal)
+  mainContainer?.appendChild(appContainer)
 
   const app = new window.MyEmbeddedApp(appContainer, options)
   app.start()
